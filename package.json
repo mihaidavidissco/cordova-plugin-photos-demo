@@ -8,5 +8,13 @@
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "author": "Apache Cordova Team",
-    "license": "Apache-2.0"
+    "license": "Apache-2.0",
+    "dependencies": {
+        "cordova-plugin-photos": "git+https://github.com/domax/cordova-plugin-photos.git"
+    },
+    "cordova": {
+        "plugins": {
+            "cordova-plugin-photos": {}
+        }
+    }
 }
